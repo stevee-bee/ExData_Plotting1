@@ -52,7 +52,7 @@ with(df, {
         points(datetime, 
                Sub_metering_2, 
                type = "l", 
-               col = "red")
+               col = "red") # same as lines(datetime, Sub_metering_2, col = "red")
         points(datetime, 
                Sub_metering_3, 
                type = "l", 
